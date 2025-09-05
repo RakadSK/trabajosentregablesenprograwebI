@@ -1,0 +1,29 @@
+Proyecto: Plataforma Web Inmobiliaria
+
+Grupo:
+Juan David Martínez Mira
+Felipe Gallego Rengifo
+Santiago Giraldo Agudelo
+Sebastian 
+
+Descripción:
+El proyecto consiste en una aplicación web para publicar y consultar propiedades (casas y apartamentos) en venta o arriendo. La lógica de negocio se estructura en 4 módulos principales que definen el comportamiento del sistema:
+
+Módulos del sistema:
+
+1. Catálogo de propiedades
+   Muestra las propiedades disponibles con sus datos principales (precio, tipo, ubicación, habitaciones, etc.).
+
+2. Filtros de búsqueda
+   Permite aplicar criterios como tipo de propiedad, rango de precio, número de habitaciones y ciudad para refinar los resultados.
+
+3. Gestión de propiedades
+   Agentes y administradores pueden crear, editar o eliminar propiedades. Se valida que toda propiedad tenga los datos mínimos obligatorios.
+
+4. Inicio de sesión y roles
+   Autenticación de usuarios con control de acceso según el rol: visitante, agente o administrador.
+
+Modelos:
+
+Propiedad: tipo, precio, habitaciones, ubicación, estado, imágenes.
+Usuario: nombre, correo, rol (visitante, agente, admin).
